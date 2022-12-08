@@ -1,0 +1,260 @@
+body {
+  margin: 0%;
+}
+
+li {
+  list-style: none;
+}
+
+.Header-list li {
+  float: right;
+  padding: 30px 10px;
+  font-family: 'roboto';
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+.btn-login  {
+  border-radius: 1.6rem;  
+  line-height: 5px;
+  margin-top: 20px;
+  background-color: #39FF14;
+  display: flex;
+  justify-items: center;
+}
+
+.btn-login > a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-login:hover {
+ 
+ box-shadow: 0 0 50px #39FF14,0 0 25px #39FF14, 0 0 50px #39FF14, 0 0 200px #39FF14;
+}
+
+.nav-li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-li > a:hover{
+  border-radius: 5%;
+  border-bottom: white solid 5px;
+  transition:500ms ease-in-out;
+}
+
+.Header:hover {
+color: yellow;
+
+}
+
+.header {
+  height: 100px;
+  color:rgb(255, 255, 255);
+  float: left;
+  padding: 7px 0 10 45px;
+  
+}
+
+
+.header-logo {
+font-size: 50px;
+padding: 7px 0px 0px 45px;
+font-family: 'Futura'; 
+}
+
+.bg {
+  background-color:#313132;
+  height: 100px;
+}
+
+.main {
+  height: 2001px;
+  padding: 0px 0 30px 0;
+  margin: 0%;
+  background-color: #313132;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  font-family: 'trajan pro';
+
+}
+
+.container-p{
+font-family: 'inter';
+opacity: 0.9;
+}
+
+.top-wrapper {
+  padding: 100px 0 166px 0;
+  background-image: url(NEW.JPG);
+  background-size: cover;
+  color: 	#ffffff;
+  text-align: center;  
+}
+
+.top-wrapper h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.sambutan {
+color: white;
+display: flex;
+margin: auto;
+margin-bottom: 50px;
+}
+
+.sambutan-img {
+  position: relative;
+  padding: 10px 1px 50px 90px;
+  height: 80%;
+}
+
+.container-nama {
+  color: white;
+  font-size: 25px;
+  margin-left: 28%;
+  margin-top: 30px;
+  font-family: 'futura';
+}
+
+.kolom {
+  text-align: right;
+  margin-left: 100%;
+  background-color: #000000;
+
+}
+
+
+
+
+
+
+.container-img {
+  height: 50px;
+}
+
+ .KONTAK {
+  height: 630px;
+  background-color: rgb(162, 0, 255);
+  padding: 20px 20px;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'inter';
+ }
+
+ .selection-title {
+  font-size: 40px;
+  padding: 0px 20px;
+  color: #ffffff ;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: black;
+  margin: 10px auto;  
+  
+ }
+
+ input,textarea,select {
+  border: 5px solid black;
+  font-size: 18px; 
+  font-family: 'inter';
+  font-weight: 500;
+  background-color: white;
+  border-radius: 15px;
+ }
+
+ ::-webkit-scrollbar{
+  width: 15px;
+
+ }
+
+ ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+  border-radius: 10px;
+ }
+
+ ::-webkit-scrollbar-thumb{
+  background: rgb(133,26,232);
+  background:linear-gradient(180deg,rgba(133,26,232,1) 15%,rgba(42,0,225,1) 84%);
+  border-radius: 30px;
+ }
+
+
+.footer {
+  background-color:rgb(49, 49, 50);
+  height: 200px;
+  color: rgb(255, 255, 255);
+  background-image: url(logo.pdw.jpg);
+}
+
+.footer-logo {
+  font-size: 35px;
+  float: left;
+  padding: 25px 0 1px 78px;
+  font-family: 'futura';
+}
+
+.footer-list  {
+  float:right;
+  font-family: 'roboto';
+}
+
+.footer-list li {
+  padding-top: 20px;
+}
+
+.logo-pdw {
+height: 85px;
+position: absolute;
+left: 9px;
+top: 2011px;
+}
+
+.logo-header {
+height: 90px;
+position: absolute;
+left: 9px;
+}
+
+button {
+  /* Variables */
+ --button_radius: 0.75em;
+ --button_color: #e8e8e8;
+ --button_outline_color: #000000;
+ font-size: 17px;
+ font-weight: bold;
+ border: none;
+ border-radius: var(--button_radius);
+ background: var(--button_outline_color);
+}
+
+.button_top {
+ display: block;
+ box-sizing: border-box;
+ border: 2px solid var(--button_outline_color);
+ border-radius: var(--button_radius);
+ padding: 0.75em 1.5em;
+ background: var(--button_color);
+ color: var(--button_outline_color);
+ transform: translateY(-0.2em);
+ transition: transform 0.1s ease;
+}
+
+button:hover .button_top {
+  /* Pull the button upwards when hovered */
+ transform: translateY(-0.33em);
+}
+
+button:active .button_top {
+  /* Push the button downwards when pressed */
+ transform: translateY(0);
+}
